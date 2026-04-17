@@ -1,0 +1,71 @@
+:root {
+  font-family: Arial, sans-serif;
+  background: #0d1117;
+  color: #c9d1d9;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+}
+
+.app-container {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 1.5rem;
+  background: #161b22;
+  border: 1px solid #30363d;
+  border-radius: 16px;
+}
+
+.section {
+  margin-bottom: 2rem;
+}
+
+.section h2 {
+  margin-bottom: 0.75rem;
+  color: #58a6ff;
+}
+
+.example-card {
+  background: #010409;
+  border: 1px solid #30363d;
+  border-radius: 14px;
+  padding: 1rem;
+}
+
+.highlight {
+  color: #79c0ff;
+}
+
+.nested-container {
+  display: grid;
+  gap: 0.75rem;
+  padding: 1rem;
+  border: 1px dashed #30363d;
+}
+
+.nested-box {
+  padding: 0.75rem;
+  border-radius: 10px;
+  background: #0b1220;
+  border: 1px solid #21262d;
+}
+
+.greeting-card {
+  padding: 1rem;
+  border-radius: 12px;
+  background: #161b22;
+  border: 1px solid #30363d;
+}
+
+.greeting-title {
+  margin: 0 0 0.5rem;
+  color: #79c0ff;
+}
+
+.footer {
+  margin-top: 1rem;
+  font-size: 0.95rem;
+  color: #8b949e;
+}
